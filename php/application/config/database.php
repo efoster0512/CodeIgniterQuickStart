@@ -48,6 +48,7 @@
 $active_group = 'default';
 $active_record = TRUE;
 
+// Default OpenShift environment variables for QuickStart using MySQL
 $db['default']['hostname'] = getenv('OPENSHIFT_MYSQL_DB_HOST');
 $db['default']['port'] = getenv('OPENSHIFT_MYSQL_DB_PORT');
 $db['default']['username'] = getenv('OPENSHIFT_MYSQL_DB_USERNAME');
